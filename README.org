@@ -1,22 +1,22 @@
-* JSON Pipe
+# JSON Pipe
 
 A small project that demonstrates how to process jsonlines files with Clojure.
 
 The project requires cheshire and core.async librairies to parse the file in parallel.
 
-* Usage
+## Usage
 
 With boot:
 
-#+BEGIN_SRC clojure
+```clojure
 cat episodes/got.jsonlines | boot run
-#+END_SRC
+```
 
 With java:
 
-#+BEGIN_SRC clojure
+```clojure
 cat episodes/got.jsonlines | java -jar target/jsonpipe.jar
-#+END_SRC
+```
 
 Feel free to use any jsonlines files in the episodes folder.
 
