@@ -6,7 +6,7 @@
    :url         "http://github.com/fmind/jsonpipe"
    :scm         {:url "http://github.com/fmind/jsonpipe"}
    :developers  {"fmind" "fmind@users.noreply.github.com"}
-   :license     {"AGPL" "https://opensource.org/licenses/agpl-3.0"}
+   :license     {"AGPL-3.0" "https://opensource.org/licenses/AGPL-3.0"}
    :description "Demonstrate how to process jsonlines files in parallel with Clojure."})
 
 (def depends
